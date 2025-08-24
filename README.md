@@ -4,7 +4,18 @@ A simple backoffice application built with **Laravel 12** + **React (Inertia.js 
 Includes authentication, CRUD posts, and WYSIWYG editor.
 
 ---
+## 🛠 Tech Stack / Requirements
 
+| Technology | Version (Tested) | Notes |
+|------------|------------------|-------|
+| 🐘 PHP     | 8.4     | Required for Laravel 12 |
+| 🟢 Laravel | 12.x             | Backend API & Authentication |
+| ⚛️ React + Inertia.js | React 19 + Inertia 1.x | Frontend SPA with TypeScript |
+| 🎨 TailwindCSS | 4.x | Utility-first CSS styling |
+| 📝 TinyMCE React | 4.x | WYSIWYG editor integration |
+| 🗄️ MySQL | MySQL 8.0 | Relational database |
+| ⚡ Node.js + NPM | Node.js 19+ / NPM 10 | Required for Vite & frontend build |
+---
 ## 🚀 Installation
 
 ### 1. Clone Repository
@@ -66,18 +77,6 @@ php artisan serve
 Now open: http://127.0.0.1:8000
 ---
 
-### 🛠 Tech Stack
-
-| Technology  | Description                          |
-|-------------|--------------------------------------|
-| 🐘 PHP 8.4  | Required runtime for Laravel 12       |
-| 🟢 Laravel  | Backend API & Authentication          |
-| ⚛️ React    | Frontend with Inertia.js + TypeScript |
-| 🎨 TailwindCSS | Utility-first CSS framework        |
-| 📝 TinyMCE  | WYSIWYG editor for post body          |
-| 🗄️ MySQL    | Relational Database                   |
-
----
 ### 👤 Default Admin Login
 ```yaml
 Email: admin@gmail.com
